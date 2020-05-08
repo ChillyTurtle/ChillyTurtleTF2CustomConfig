@@ -2,7 +2,7 @@
 My TF2 configs.
 
 # autoexec.cfg
-- fps_max 240
+- fps_max 60
 - sv_cheats 1
 - sv_allow_point_servercommand always
 - Recommended launch options
@@ -16,7 +16,7 @@ My TF2 configs.
 
 # class configs
 - exec binds.cfg on all classes
-- cl_interp 0.03 on hitscan classes
+- cl_interp 0.0304 on hitscan classes
 - cl_interp 0.0152 on projectile classes
 - Extra disguise binds for spy
   - Enemy medic holding medigun disguise
