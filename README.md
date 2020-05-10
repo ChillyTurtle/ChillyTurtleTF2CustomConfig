@@ -57,7 +57,7 @@ Some of the options may not be the most optimal for you. Please look over the co
 #### listenserver.cfg
 - `sv_cheats 1`
 - `sv_allow_point_servercommand always`
-- `net_fakelag 20`
+- `net_fakelag 20` (uncomment to use)
 
 ## Credits
 - aWoolenSleevelet
