@@ -1,21 +1,22 @@
 # ChillyTurtleTF2CustomConfig
-My TF2 configs.
+ChillyTurtle's TF2 configs.
 
 ## Warning
-Some of the options may not be the most optimal for you. Please look over the configs before you decide to use these commands. Look out for the Net Settings in autoexec.cfg.
+Some of the options may not be your fit. Please look over the configs before you decide to use these commands. Look out for the Net Settings in autoexec.cfg.
 
-## How to install
-- Put autoexec.cfg, Bind.cfg, MaxFrames.cfg, TransparentViewmodels.cfg, listenserver.cfg in the tf/cfg folder.
+## Installation
+- Put `autoexec.cfg`, `Bind.cfg`, `MaxFrames.cfg`, `TransparentViewmodels.cfg`, `listenserver.cfg` in the tf/cfg folder.
 - Take out the class configs from the class configs folder and put it in the tf/cfg folder as well.
-
+- Choose one between `nohitscanviewmodels.vpk` and `noprimarysecondaryviewmodels.vpk` to put in the tf/custom folder, or just don't.
 ## Contents and Main Features
 
 #### autoexec.cfg
 - `fps_max 60`
 - `sv_cheats 1`
 - `sv_allow_point_servercommand always`
-- Recommended launch options
-- Executes Binds.cfg, MaxFrames.cfg, and TransparentViewmodel.cfg (uncomment to use)
+- `cl_interp 0.0303`
+- Recommended launch options (you have to set these up yourself)
+- Executes `Binds.cfg`, `MaxFrames.cfg`, and `TransparentViewmodel.cfg` (disabled, uncomment to use)
 - Better network settings
 - Disable mouse acceleration
 - Optimized advanced multiplayer options for gameplay
@@ -25,8 +26,8 @@ Some of the options may not be the most optimal for you. Please look over the co
 
 #### class configs
 - exec binds.cfg on all classes
-- `cl_interp 0.0304` on hitscan classes
-- `cl_interp 0.0152` on projectile classes
+- `cl_interp 0.0304` on hitscan classes (disabled, all class have `cl_interp 0.0303` now)
+- `cl_interp 0.0152` on projectile classes (disabled, all class have `cl_interp 0.0303` now)
 - Extra disguise binds for spy
   - Enemy medic holding medigun disguise
   - Undisguise
@@ -38,6 +39,8 @@ Some of the options may not be the most optimal for you. Please look over the co
 
 #### MaxFrames.cfg
 - `mat_phong 0`
+- `mat_bumpmap 1`
+- `mat_specular 1`
 - `host_thread_mode 0`
 - Pyrovision disabled
 - Facial features disabled
@@ -57,7 +60,7 @@ Some of the options may not be the most optimal for you. Please look over the co
 #### listenserver.cfg
 - `sv_cheats 1`
 - `sv_allow_point_servercommand always`
-- `net_fakelag 20` (uncomment to use)
+- `net_fakelag 20` (disabled, uncomment to use)
 
 ## Credits
 - aWoolenSleevelet
