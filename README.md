@@ -38,9 +38,11 @@ Some of the options may not be your fit. Please look over the configs before you
 - Personal binds shared among all classes (minor exception for spy)
 
 #### MaxFrames.cfg
+- `r_rootlod 2`
+- `mat_picmip 1`
 - `mat_phong 0`
-- `mat_bumpmap 1`
-- `mat_specular 1`
+- `mat_bumpmap 0`
+- `mat_specular 0`
 - `host_thread_mode 0`
 - Pyrovision disabled
 - Facial features disabled
