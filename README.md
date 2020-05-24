@@ -16,7 +16,7 @@ Some of the options may not be your fit. Please look over the configs before you
 - `sv_allow_point_servercommand always`
 - `cl_interp 0.0303`
 - Recommended launch options (you have to set these up yourself)
-- Executes `Binds.cfg`, `MaxFrames.cfg`, and `TransparentViewmodel.cfg` (disabled, uncomment to use)
+- Executes `Binds.cfg`, `MaxFrames.cfg`, `TransparentViewmodel.cfg` (disabled, uncomment to use), `Talk.cfg`, and `Notalk.cfg`.
 - Better network settings
 - Disable mouse acceleration
 - Optimized advanced multiplayer options for gameplay
@@ -38,8 +38,8 @@ Some of the options may not be your fit. Please look over the configs before you
 - Personal binds shared among all classes (minor exception for spy)
 
 #### MaxFrames.cfg
-- `r_rootlod 2`
-- `mat_picmip 1`
+- `r_rootlod 0`
+- `mat_picmip 0`
 - `mat_phong 0`
 - `mat_bumpmap 0`
 - `mat_specular 0`
@@ -63,6 +63,10 @@ Some of the options may not be your fit. Please look over the configs before you
 - `sv_cheats 1`
 - `sv_allow_point_servercommand always`
 - `net_fakelag 20` (disabled, uncomment to use)
+
+#### Talk.cfg and Notalk.cfg
+- Disabled/enables voice chat and regular chat.
+
 
 ## Credits
 - aWoolenSleevelet
