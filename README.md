@@ -64,6 +64,7 @@ Some of the options may not be your fit. Please look over the configs before you
 #### listenserver.cfg
 - `sv_cheats 1`
 - `sv_allow_point_servercommand always`
+- `tf_use_fixed_weaponspreads 1`
 - `net_fakelag 20` (disabled, uncomment to use)
 
 #### Talk.cfg and Notalk.cfg
